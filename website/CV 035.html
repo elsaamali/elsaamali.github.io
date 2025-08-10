@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV - Elsza Malinda</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* Body */
+    body {
+      background-color: beige;
+      font-family:"Times New Roman", serif;
+      color: #111;
+      line-height: 1.5;
+      padding: 32px 16px;
+    }
+
+    /* Batas lebar CV */
+    .cv-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(255,255,255,0.02);
+      padding: 28px;
+      border-radius: 6px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 18px;
+    }
+
+    .header-left {
+      flex: 1 1 auto;
+    }
+
+    h1 {
+      font-size: 48px;
+      letter-spacing: 2px;
+      margin-bottom: 6px;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .contact {
+      font-size: 14px;
+      color: #222;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 150px;
+      border-radius: 6px;
+      object-fit: cover;
+      border: 3px solid rgba(0,0,0,0.06);
+      flex: 0 0 auto;
+    }
+
+    @media (max-width: 600px) {
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .profile-img {
+        align-self: flex-start;
+        width: 96px;
+        height: 120px;
+      }
+    }
+
+    section {
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(0,0,0,0.12);
+    }
+
+    section h3 {
+      font-size: 20px;
+      margin-bottom: 12px;
+      letter-spacing: 1px;
+    }
+
+    p {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .content {
+      padding: 6px 2px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="cv-wrapper">
+    <header class="header">
+      <div class="header-left">
+        <h1>ELSZA MALINDA</h1>
+        <h2>MAHASISWA S1 TEKNIK INFORMATIKA</h2>
+        <p class="contact">elszamalinda@gmail.com | @na.elsa0912 | 082180407260</p>
+        </div>
+
+      <img class="profile-img" src="gambar1.jpg" alt="Foto Elsza Malinda">
+    </header>
+    <hr>
+
+    <div class="content">
+        <h3>TENTANG SAYA</h3>
+        <p><strong><span style="color:rgb(255, 0, 64)">Hello'</span></strong> Saya merupakan mahasiswa program studi S1 Teknik Informatika di Institut Teknologi Sumatera. Memiliki tanggung jawab tinggi, mampu bekerja secara individu maupun tim.</p>
+      </section>
+
+      <section id="PENDIDIKAN">
+        <h3>PENDIDIKAN</h3>
+        <p>2021-2024 | SMA Negeri 1 Pesisir Selatan</p>
+        <p>Ilmu Pengetahuan Alam</p>
+        <p>2024-Sekarang | Institut Teknologi Sumatera</p>
+        <p>S1 Teknik Informatika</p>
+      </section>
+
+      <section id="KEAHLIAN">
+        <h3>KEAHLIAN</h3>
+        <p>Microsoft Office</p>
+        <p>Manajemen Waktu</p>
+        <p>Kerjasama Tim</p>
+    </section>
+
+      <section id="PENGALAMAN">
+        <h3>PENGALAMAN</h3>
+        <p>Panitia Acara — First Meet Angkatan (2024)</p>
+        <p>Bertanggung jawab dalam perencanaan dan pelaksanaan rangkaian kegiatan angkatan, termasuk menyusun susunan acara serta memastikan kelancaran teknis di hari pelaksanaan.</p>
+        <p>Panitia Acara — Malam Keakraban (2024)</p>Berperan dalam merancang konsep acara, mengatur alur kegiatan, serta menjalin koordinasi dengan seluruh tim untuk menciptakan suasana yang menyenangkan dan mempererat hubungan antaranggota.</p>
+        <p>Panitia Konsumsi — Pemilihan Ketua Angkatan (2025)</p>
+        <p>Mengelola kebutuhan konsumsi selama kegiatan berlangsung, mulai dari perencanaan menu hingga distribusi makanan dan minuman kepada seluruh peserta</p>
+      </section>
+    </div>
+  </div>
+</body>
+</html> 
